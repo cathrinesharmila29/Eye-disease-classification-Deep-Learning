@@ -5,7 +5,6 @@ A deep learning web app for classifying eye diseases (Cataract, Diabetic Retinop
 ## Features
 
 - Classifies four eye diseases: Cataract, Diabetic Retinopathy, Glaucoma, Normal
-- CNN model with TensorFlow/Keras and data augmentation
 - Flask backend with REST API and frontend for user interaction
 - Performance metrics: accuracy, F1 score, confusion matrix
 
@@ -22,16 +21,7 @@ EyeDiseaseClassifier/
 └── README.md               # Project documentation
 ```
 
-## Setup Instructions
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/maheenshkk/Medical-Eye-Disease-Classification.git
-   cd EyeDiseaseClassifier
-   ```
-
-2. **Set Up Python Environment**:
+ **Set Up Python Environment**:
 
    - Install Python 3.8+.
 
@@ -48,7 +38,7 @@ EyeDiseaseClassifier/
      pip install -r requirements.txt
      ```
 
-3. **Download Dataset**:
+ **Download Dataset**:
 
    - Download the Eye Diseases Classification dataset from Kaggle.
    https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification
@@ -100,3 +90,4 @@ EyeDiseaseClassifier/
 ## License
 
 MIT License
+
