@@ -43,8 +43,7 @@ EyeDiseaseClassifier/
    - Download the Eye Diseases Classification dataset from Kaggle.
    https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification
    - Extract to `dataset/` with structure: `dataset/{cataract,diabetic_retinopathy,glaucoma,normal}/images`.
-
-4. **Train the Model**:
+**Train the Model**:
 
    - Run the training script:
 
@@ -54,7 +53,7 @@ EyeDiseaseClassifier/
 
    - Best model saved in `model/best_cnn_model.keras`.
 
-5. **Run the Flask App**:
+ **Run the Flask App**:
 
    - Start the Flask server:
 
@@ -90,4 +89,5 @@ EyeDiseaseClassifier/
 ## License
 
 MIT License
+
 
